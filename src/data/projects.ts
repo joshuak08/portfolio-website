@@ -3,7 +3,7 @@ import React from 'react';
 export type ProjectProps = {
     title : string
     category : string
-    status : string,
+    status : string
     grade? : string 
     start_date : string
     end_date : string
@@ -29,6 +29,22 @@ export const projects : Record<string, ProjectProps> = {
         start_date: 'June 2023',
         end_date: 'September 2023',
         technologies: ['Flask', 'Python Dash']
+    },
+    'water-treatment-twin': {
+        title: 'Water Treatment Digital Twin',
+        category: 'University Coursework project',
+        status: 'Completed',
+        start_date: 'September 2022',
+        end_date: 'May 2023',
+        technologies: ['Django', 'BootStrapCSS', 'Docker', 'JavaScript']
+    },
+    gol : {
+        title: 'Autonomous Cellular Simulation (Game of Life)',
+        category: 'University Coursework project',
+        status: 'Completed',
+        start_date: 'November 2022',
+        end_date: 'December 2022',
+        technologies: ['Go']
     },
     'scotland-yard' : {
         title : 'Scotland Yard',
